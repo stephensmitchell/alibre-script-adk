@@ -1,31 +1,82 @@
-alibre-script-addon
+Utilities for creating Alibre Script-based add-ons no coding required.
 
-Scripting engines
-
-- [ ] Python.NET
-
-- [ ] IronPython 3
-
-- [X] IronPython 2.7.10/12
-
-CLI 
-
-- [ ] Python.NET
-
-- [ ] IronPython 3
-
-- [ ] IronPython 2.7.10/12
+[Page Mirror](https://www.notion.so/donetoolkit/alibre-script-adk-edit-main-README-md-page-mirror-2375708902a0805ca515d531a40cee52)
 
 Issues/Notes:
+  - AlibreScript.API.Windows is not correctly receiving the hwd from the addon/Alibre.
+  - The Alibre Script library should function exactly the same. What may require fixes and rewriting are code that was written for the Alibre Script addon, workarounds, global or undocumented objects.
 
-- Python.NET
+Tested/Confirmed APIs:
 
-- IronPython 3
-
-- IronPython 2.7.10/12
-  - AlibreScript.API.Windows is not correctly receiving the hwd from the addon/Alibre
-  - The Alibre Script library should function exactly the same. What may require fixes and rewriting are code that was written for the Alibre Script addon, workarounds, global or undocumented objects.  
-
+- [ ]  ASDictionary | **builtin**.type
+- [ ]  ASDictionaryEntry | **builtin**.type
+- [x]  AssembledPart | **builtin**.type
+- [x]  AssembledSubAssembly | **builtin**.type
+- [x]  Assembly | **builtin**.type
+- [x]  Axis | **builtin**.type
+- [x]  Bspline | **builtin**.type
+- [x]  Bspline3D | **builtin**.type
+- [x]  Circle | **builtin**.type
+- [x]  CircularArc | **builtin**.type
+- [x]  CircularArc3D | **builtin**.type
+- [x]  Configuration | **builtin**.type
+- [ ]  CurrentAssemblies | **builtin**.Func[list]
+- [ ]  CurrentAssembly | **builtin**.Func[Assembly]
+- [ ]  CurrentPart | **builtin**.Func[Part]
+- [ ]  CurrentParts | **builtin**.Func[list]
+- [x]  Edge | **builtin**.type
+- [x]  Ellipse | **builtin**.type
+- [x]  EllipticalArc | **builtin**.type
+- [x]  Face | **builtin**.type
+- [x]  Feature | **builtin**.type
+- [x]  GearSketch | **builtin**.type
+- [ ]  Global | **builtin**.type
+- [ ]  GlobalParameters | **builtin**.type
+- [x]  GuideCurveTypes | **builtin**.type
+- [x]  IAssembled | **builtin**.type
+- [x]  IAxis | **builtin**.type
+- [x]  IChamferable | **builtin**.type
+- [x]  IConstrainable | **builtin**.type
+- [x]  IFilletable | **builtin**.type
+- [x]  IInstance | **builtin**.type
+- [x]  IPlane | **builtin**.type
+- [x]  IPoint | **builtin**.type
+- [x]  ISelectableGeometry | **builtin**.type
+- [x]  ISketchFigure | **builtin**.type
+- [x]  ISketchFigure3D | **builtin**.type
+- [x]  ISketchSurface | **builtin**.type
+- [x]  ISweepPath | **builtin**.type
+- [x]  Line | **builtin**.type
+- [x]  Line3D | **builtin**.type
+- [x]  LockTypes | **builtin**.type
+- [x]  Material | **builtin**.type
+- [x]  Parameter | **builtin**.type
+- [x]  ParameterTypes | **builtin**.type
+- [x]  ParameterUnits | **builtin**.type
+- [x]  Part | **builtin**.type
+- [x]  Plane | **builtin**.type
+- [x]  Point | **builtin**.type
+- [x]  Polyline | **builtin**.type
+- [x]  Polyline3D | **builtin**.type
+- [x]  PolylinePoint | **builtin**.type
+- [x]  PolylinePoint3D | **builtin**.type
+- [ ]  STL | **builtin**.type
+- [ ]  Selection | **builtin**.type
+- [ ]  SessionIdentifier | **builtin**.str
+- [x]  Sketch | **builtin**.type
+- [x]  Sketch3D | **builtin**.type
+- [x]  SketchPoint | **builtin**.type
+- [x]  SketchPoint3D | **builtin**.type
+- [x]  ThreeD | **builtin**.type
+- [ ]  ThumbnailOptions | **builtin**.type
+- [x]  TwoD | **builtin**.type
+- [x]  UnitTypes | **builtin**.type
+- [x]  Units | **builtin**.type
+- [ ]  Utility | **builtin**.type
+- [x]  Vertex | **builtin**.type
+- [ ]  Windows | **builtin**.Func[Windows]
+- [ ]  WindowsInputTypes | **builtin**.type
+    
 Example/Sample Verified IsWorking List:
 
 - [ ] `Assembly-Constraints.py`
