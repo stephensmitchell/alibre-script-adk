@@ -1,6 +1,14 @@
+[Page Mirror](https://www.notion.so/donetoolkit/alibre-script-adk-edit-main-README-md-page-mirror-2375708902a0805ca515d531a40cee52)
 Utilities for creating Alibre Script-based add-ons no coding required.
 
-[Page Mirror](https://www.notion.so/donetoolkit/alibre-script-adk-edit-main-README-md-page-mirror-2375708902a0805ca515d531a40cee52)
+ADK Overview [wip]:
+1) ScriptRunner Class - Iron Python 3 script runner
+2) Integration Class
+3) Add-on Helper Classs
+4) Tools - Helper scripts and executables addon generation, no code tools
+5) Example code
+6) Demo addon
+8) API Testing reports and addons
 
 Issues/Notes:
   - AlibreScript.API.Windows is not correctly receiving the hwd from the addon/Alibre.
