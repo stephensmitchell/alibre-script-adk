@@ -5,6 +5,14 @@ Utilities for creating Alibre Script-based add-ons no coding required.
 Issues/Notes:
   - AlibreScript.API.Windows is not correctly receiving the hwd from the addon/Alibre.
   - The Alibre Script library should function exactly the same. What may require fixes and rewriting are code that was written for the Alibre Script addon, workarounds, global or undocumented objects.
+  - You can ask AI to explain the ScriptRunner class but don't let it refactor it, what's there works for Alibre Script. Your decision.
+  - There are hardcoded values for development safe to change, I use tools to manage strings and paths.
+  - Don't use Part() if testing, TopmostSession loads faster and is more responsive.
+  - Some global and AlibreX techniques and workarounds break or get confusing. Scripts should use the simplest method unless necessary.
+  - What's not included are code templates, shared classes for Python.NET, Iron Python 3 and integration classes.
+  - ScriptRunner is setup to match the Alibre Script addon.
+  - Use scope.SetVariable and searchPaths to setup the environment how you want.
+  - Alibre Script is working in Iron Python 3 (updated the nuget package) and is what I'll use in the main project. Code that requires 2.7.10 won't be supported.
 
 Tested/Confirmed APIs:
 
