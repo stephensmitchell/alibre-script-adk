@@ -1,15 +1,15 @@
-[Page Mirror](https://www.notion.so/donetoolkit/alibre-script-adk-edit-main-README-md-page-mirror-2375708902a0805ca515d531a40cee52)
+To run Alibre Script code from an Alibre Design addon, only the ScriptRunner class is required. This repository (the alibre-script-adk) and its related content were created to provide community and public resources, but they are not required.
 
 Utilities for creating Alibre Script-based add-ons no coding required.
 
 ADK Overview [wip]:
 1) ScriptRunner Class - Iron Python 3 script runner
-2) Integration Class
-3) Add-on Helper Classs
-4) Tools - Helper scripts and executables addon generation, no code tools
-5) Example code
-6) Demo addon
-8) API Testing reports and addons
+2) Integration Class [planned]
+3) Add-on Helper Classs [planned]
+4) Tools - Helper scripts and executables addon generation, no code tools [planned]
+5) Example code [wip]
+6) Demo addons [wip] 
+8) API Testing reports and addons [wip]
 
 Issues/Notes:
   - AlibreScript.API.Windows is not correctly receiving the hwd from the addon/Alibre.
