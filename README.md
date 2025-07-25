@@ -1,27 +1,15 @@
 To run Alibre Script code from an Alibre Design addon, only the ScriptRunner class is required. This repository (the alibre-script-adk) and its related content were created to provide community and public resources, but they are not required.
 
-Utilities for creating Alibre Script-based add-ons no coding required.
+ADK Overview:
 
-ADK Overview [wip]:
 1) ScriptRunner Class - Iron Python 3 script runner
-2) Integration Class [planned]
-3) Add-on Helper Classs [planned]
-4) Tools - Helper scripts and executables addon generation, no code tools [planned]
-5) Example code [wip]
-6) Demo addons [wip] 
-8) API Testing reports and addons [wip]
-
-Issues/Notes:
-  - AlibreScript.API.Windows is not correctly receiving the hwd from the addon/Alibre.
-  - The Alibre Script library should function exactly the same. What may require fixes and rewriting are code that was written for the Alibre Script addon, workarounds, global or undocumented objects.
-  - You can ask AI to explain the ScriptRunner class but don't let it refactor it, what's there works for Alibre Script. Your decision.
-  - There are hardcoded values for development safe to change, I use tools to manage strings and paths.
-  - Don't use Part() if testing, TopmostSession loads faster and is more responsive.
-  - Some global and AlibreX techniques and workarounds break or get confusing. Scripts should use the simplest method unless necessary.
-  - What's not included are code templates, shared classes for Python.NET, Iron Python 3 and integration classes.
-  - ScriptRunner is setup to match the Alibre Script addon.
-  - Use scope.SetVariable and searchPaths to setup the environment how you want.
-  - Alibre Script is working in Iron Python 3 (updated the nuget package) and is what I'll use in the main project. Code that requires 2.7.10 won't be supported.
+2) Integration Class
+3) Add-on Helper Classs 
+4) Tools - Helper scripts and executables addon generation, no code tools
+5) Example code
+6) Demo addons
+8) API Testing report addon
+9) Reports
 
 Tested/Confirmed APIs:
 
@@ -166,3 +154,16 @@ Example/Sample Verified IsWorking List:
   - [ ] `JointCreatorIcon.png`
   - [ ] `Pocket Hole Creator.py`
   - [ ] `PocketHoleCreatorIcon.png`
+
+Demos:
+
+- alibre-nodes-addon
+- alibre-shapes-addon
+- alibre-nocode-addon
+- alibre-vscodium-addon
+- alibre-script-runner-addon
+- alibre-feature-naming-addon
+
+Tools:
+
+Reports:
