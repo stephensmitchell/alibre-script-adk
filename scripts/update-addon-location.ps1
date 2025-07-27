@@ -1,5 +1,5 @@
 # Ensure this script is run as Administrator
-if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`[Security.Principal.WindowsBuiltInRole] "Administrator")) {Write-Warning "You must run this script as Administrator!"exit}
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Write-Warning "You must run this script as Administrator!"; exit }
 # Define the registry base path under HKLM
 $baseRegistryPath = "HKLM:\SOFTWARE\Alibre Design Add-Ons"
 # Define the add-on name and path
