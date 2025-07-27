@@ -1,10 +1,15 @@
-Utilities for creating Alibre Script-based add-ons no coding required.
+To run Alibre Script code from an Alibre Design addon, only the ScriptRunner class is required. This repository (the alibre-script-adk) and its related content were created to provide community and public resources, but they are not required.
 
-[Page Mirror](https://www.notion.so/donetoolkit/alibre-script-adk-edit-main-README-md-page-mirror-2375708902a0805ca515d531a40cee52)
+ADK Overview:
 
-Issues/Notes:
-  - AlibreScript.API.Windows is not correctly receiving the hwd from the addon/Alibre.
-  - The Alibre Script library should function exactly the same. What may require fixes and rewriting are code that was written for the Alibre Script addon, workarounds, global or undocumented objects.
+1) ScriptRunner Class - [CODE](https://github.com/stephensmitchell/alibre-script-adk/blob/02af8a3304e25b5f21215a7ab7b394def3fac9ec/prototypes/AlibreAddOn.cs#L191C18-L191C30)
+2) Integration Class
+3) Add-on Helper Classs 
+4) Tools - Helper scripts and executables addon generation, no code tools
+5) Example code
+6) Demo addons
+8) API Testing report addon
+9) Reports
 
 Tested/Confirmed APIs:
 
@@ -149,3 +154,16 @@ Example/Sample Verified IsWorking List:
   - [ ] `JointCreatorIcon.png`
   - [ ] `Pocket Hole Creator.py`
   - [ ] `PocketHoleCreatorIcon.png`
+
+Demos:
+
+- alibre-nodes-addon
+- alibre-shapes-addon
+- alibre-nocode-addon
+- alibre-vscodium-addon
+- alibre-script-runner-addon
+- alibre-feature-naming-addon
+
+Tools:
+
+Reports:
